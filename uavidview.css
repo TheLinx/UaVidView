@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #ffffff;
+}
+#controls {
+    width: 638px;
+    height: 23px;
+    background-image: url(http://cdn.uapps.org/youtubecontrols.gif);
+    border: 1px solid #b1b1b1;
+    position: absolute;
+    top: 360px;
+    left: 0;
+}
+#cvid {
+    width: 640px;
+    height: 360px;
+    /*background-color: #f0f0f0;*/
+}
+#vid {
+    width: 640px;
+    height: 360px;
+}
+span {
+    background-image: url(http://cdn.uapps.org/youtubecontrols.gif);
+    border: 0;
+    border-right: 1px solid #b1b1b1;
+    width: 29px;
+    height: 23px;
+    float:left;
+    display:block;
+}
+.paused {
+    background-position: 0 -67px;
+}
+.playing {
+    background-position: 0 -90px;
+}
+.paused-hover {
+    background-position: -28px -67px !important;
+}
+.playing-hover {
+    background-position: -28px -90px !important;
+}
+.paused-down {
+    background-position: -56px -67px !important;
+}
+.playing-down {
+    background-position: -56px -90px !important;
+}
+#loading {
+    position: absolute;
+    top: 152px;
+    left: 298px;
+    display: block;
+}
+#replay {
+    position: absolute;
+    top: 152px;
+    left: 298px;
+    display: none;
+    cursor: pointer;
+}
+#seekcont {
+    border-left: 1px solid #eeeeee;
+    border-right: 1px solid #b1b1b1;
+    display: block;
+    float:left;
+    height: 23px;
+    width: 575px;
+}
+#seekbar {
+    display: block;
+    float: left;
+    height: 7px;
+    margin: 7px 10px 0 10px;
+    border-left: 1px solid #bdbdbd;
+    border-top: 1px solid #bdbdbd;
+    border-right: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+    background-image: url(http://cdn.uapps.org/youtubecontrols.gif);
+    background-position: 0 -60px;
+    width: 553px;
+}
+#seekplayed {
+    background-image: url(http://cdn.uapps.org/youtubecontrols.gif);
+    background-position: 0 -46px;
+    height: 7px;
+    margin-top: 0;
+    display: block;
+    position: relative;
+}
+#seekloaded {
+    background-image: url(http://cdn.uapps.org/youtubecontrols.gif);
+    background-position: 0 -53px;
+    height: 7px;
+    margin-top: 0;
+    display: block;
+    position: relative;
+}
+#vol {
+    border-left: 1px solid #eeeeee;
+    border-right: 0;
+    background-position: 0 -182px;
+}
