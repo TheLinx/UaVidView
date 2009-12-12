@@ -1,0 +1,11 @@
+h1. UaVidView
+
+UaVidView is a pure HTML5 + Javascript web-based media viewer.
+
+h3. License
+
+UaVidView is a public domain project, which means that you may use the code and content however you like.
+
+h3. Contributing
+
+Feel free to fork UaVidView on "Github":http://github.com/thelinx/uavidview.
